@@ -1,2 +1,2 @@
-# Prediction-of-a-reactor-s-isotopic-inventory-Build-Status.ipynb
+# Prediction of a reactors isotopic inventory Build Status.
 Data challenge that i realised for a competition between the students of my master 2 DataScience at Institut Polytechnique de PARIS. The goal was to find the models with the lower MAPE error using the predictors of our choices. I tried several models of deep learning/linear regression and random forests. The best model used linear regression combined with spline polynomial transformation, PolynomialFeatures to create interactions terms between the covariates of various degrees, StandardScaler to scale the data and a linear regression model.
